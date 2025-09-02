@@ -45,6 +45,7 @@ impl Drop for Document {
 }
 
 #[derive(Debug)]
+#[allow(dead_code)]
 struct CustomReject(anyhow::Error);
 
 impl warp::reject::Reject for CustomReject {}

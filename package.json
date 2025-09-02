@@ -18,7 +18,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
-    "rustpad-wasm": "file:./rustpad-wasm/pkg",
+    "rustpad-wasm": "file:rustpad-wasm/pkg",
     "use-local-storage-state": "^13.0.0"
   },
   "devDependencies": {
@@ -29,6 +29,8 @@
     "monaco-editor": "^0.31.1",
     "prettier": "2.5.1",
     "typescript": "~4.5.4",
-    "vite": "^2.7.7"
+    "vite": "^7.1.4",
+    "vite-plugin-top-level-await": "^1.6.0",
+    "vite-plugin-wasm": "^3.5.0"
   }
 }
